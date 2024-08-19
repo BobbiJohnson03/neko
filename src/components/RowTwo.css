@@ -1,0 +1,22 @@
+.mySwiper {
+  width: 100%;
+  height: auto;
+}
+
+.swiper-slide {
+  width: auto; /* Ustaw szerokość na auto */
+  height: 100%;
+  min-height: 200px; /* Możesz dostosować w zależności od potrzeb */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* Usuń marginesy i paddingi */
+  margin: 0;
+  padding: 0;
+}
+
+.slide-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover; /* Wypełnia kontener */
+}
